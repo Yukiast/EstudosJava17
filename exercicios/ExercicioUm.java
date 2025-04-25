@@ -9,7 +9,7 @@ public static void main(String[] args) {
      numero escolhido pelo pc 
      escreva na tela se o usuario venceu ou perdeu
      */
-random random = new Random();
+Random random = new Random();
 int Pc = random.nextInt(6); 
      
     Scanner scanner = new Scanner(System.in);

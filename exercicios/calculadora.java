@@ -40,7 +40,7 @@ public class calculadora {
 
         double resultado = 0;
         
-        
+
         switch (operacao) {
             case 1:
                 resultado = somar(numeroUm, numeroDois);
@@ -75,7 +75,7 @@ public class calculadora {
 
             default:
                 System.out.println("o numero digitado esta errado!");
-                
+               
                 break;
         }
     
