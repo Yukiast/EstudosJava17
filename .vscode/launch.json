@@ -1,0 +1,141 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ContagemFogos$fatorial",
+            "request": "launch",
+            "mainClass": "ContagemFogos$fatorial",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ControleDeFluxo",
+            "request": "launch",
+            "mainClass": "ControleDeFluxo",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioCinco",
+            "request": "launch",
+            "mainClass": "ExercicioCinco",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioOito",
+            "request": "launch",
+            "mainClass": "ExercicioOito",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioSete",
+            "request": "launch",
+            "mainClass": "ExercicioSete",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioTres",
+            "request": "launch",
+            "mainClass": "ExercicioTres",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioUm",
+            "request": "launch",
+            "mainClass": "ExercicioUm",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExerciocioDois",
+            "request": "launch",
+            "mainClass": "ExerciocioDois",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExerciocioQuatro",
+            "request": "launch",
+            "mainClass": "ExerciocioQuatro",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "ExerciocioSeis",
+            "request": "launch",
+            "mainClass": "ExerciocioSeis",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "NumerosImpar",
+            "request": "launch",
+            "mainClass": "NumerosImpar",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "NumerosParFor",
+            "request": "launch",
+            "mainClass": "NumerosParFor",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "TabuadaFor",
+            "request": "launch",
+            "mainClass": "TabuadaFor",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "calculadora",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "EstudosFor",
+            "request": "launch",
+            "mainClass": "fundamentosJava.EstudosFor",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "switchDois",
+            "request": "launch",
+            "mainClass": "switchDois",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "switchum",
+            "request": "launch",
+            "mainClass": "switchum",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "testeDeNumero",
+            "request": "launch",
+            "mainClass": "testeDeNumero",
+            "projectName": "EstudosJava17_b7930c5b"
+        }
+    ]
+}

@@ -1,5 +1,8 @@
 import java.util.Scanner;
-/*faça um programa que mostre na tela uma contagem regressiva
+
+public class ContagemFogos {
+
+    /*faça um programa que mostre na tela uma contagem regressiva
  * para o esouro de fogos de artificio.indo de 10 ate 0. 
  * com uma pausa de 1 segundo entre elas.
  */
@@ -33,29 +36,26 @@ public class fatorial {
         int comando = scanner.nextInt();
     
         if (comando == 1) {
-
-
+            
             System.out.println("Iniciando a contagem:");
-                try{ Thread.sleep(1000);
+            try{ Thread.sleep(1000);
 
-                }catch(InterruptedException e){
-                    System.out.println("contagem interrompida.");
-                    Thread.currentThread().interrupt();
+            }catch(InterruptedException e){
+                System.out.println("contagem interrompida.");
+                Thread.currentThread().interrupt();
                 }
 
-                for(int i = 10 ; i >= 0 ; i--){
+            for(int i = 10 ; i >= 0 ; i--){
                 
-                    System.out.println(i);
-
+                System.out.println(i);
                 try{ Thread.sleep(1000);
-
                 }catch(InterruptedException e){
                     System.out.println("contagem interrompida.");
                     Thread.currentThread().interrupt();
                 }
                 
         }   
-                System.out.println("Lançado!!!");
+            System.out.println("Lançado!!!");
             
             }else{
                 
@@ -64,18 +64,7 @@ public class fatorial {
                    
             
     }
-
-
-
-
-
-
-    
-    
         
 }
-    
-        
-    
-    
-
+  
+}

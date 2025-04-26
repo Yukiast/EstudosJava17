@@ -2,24 +2,23 @@
 
 
 public class NumerosImpar {
+
     public static void main(String[] args) {
-        
+        int valor = 0;
         for(int i =0; i <= 500 ; i++){
-            if (i%3 == 0 && i% 2 > 0){
-                int divisiveis = i;
-               
+            if (i%3 == 0 && i% 2 > 0 ){
+                valor = valor + i;
             }
-            for(int a =0; a <= 500 ; a++){
-                if (a%2>0 && a% 3 > 0){
-                    int impar = a;
-                   System.out.println(a);
-                }
-              
             
-            }
+           
         }
+        System.out.println("O numero é " +valor);
+            
     }
+
 }
+    
+
 
 
 
