@@ -19,7 +19,24 @@ public class EstudosFor {
             System.out.println("o numero é "+ i);
         }
 
+        for (int i = 0; i <= 10; i = i + 2) { //outro tipo de for onde tem o acrescimo
+            System.out.println(i);
+          }
+
+        for (int i = 0; i < 10; i++) { // break interrompe o ciclo quando o for alcança o parametro estipulado
+        if (i == 4) {
+            break;
+        }
+        System.out.println(i);
 
     }
+        for (int i = 0; i < 10; i++) {//continue ele vai continuar a sequencia quando chegar no estipulado e pular o valor adotado
+            if (i == 4) {
+            continue;
+            }
+            System.out.println(i);
+        }
 
+
+}
 }

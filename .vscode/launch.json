@@ -4,7 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "ProgressaoAritmetica",
+            "request": "launch",
+            "mainClass": "ProgressaoAritmetica",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "SomaNumFor",
+            "request": "launch",
+            "mainClass": "SomaNumFor",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
         {
             "type": "java",
             "name": "Current File",

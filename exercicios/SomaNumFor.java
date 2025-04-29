@@ -20,6 +20,9 @@ public class SomaNumFor {
 
 
 
+/**
+ *
+ */
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Digite Seis numeros inteiros para a soma: ");
@@ -29,9 +32,23 @@ public static void main(String[] args) {
     int quartoNumero = scanner.nextInt();
     int quintoNumero= scanner.nextInt();
     int sextoNumero = scanner.nextInt();
+    int[] myNumb = {primeiroNumero,segundoNumero,terceiroNumero,quartoNumero,quintoNumero,sextoNumero} ;
+    
+
+
 
     
 
 
+    for(int i=0 ; i %2 ==0 ; i = primeiroNumero){
+    System.out.println("numeero"+ i);
+    }
+
+
+}
+
+@Override
+public String toString() {
+    return "SomaNumFor []";
 }
 }
