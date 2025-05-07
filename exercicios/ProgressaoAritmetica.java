@@ -5,14 +5,33 @@ public class ProgressaoAritmetica {
 razão de uma PA. No final mostre os 10 primeiros termos 
 dessa progressão*/    
 
-public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Olá Ususario.");
-    System.out.println("Com qual numero começaremos nossa Progressão Aritimetica? ");
-    int numeroProg = scanner.nextInt();
-    System.out.println("Agora o acrescimo da nossa progressão: ");
-    int acrescimo = scanner.nextInt();
 
+/* usuario digitar de onde começoa
+ * usuario digitar a razao da pa
+ * definir o for
+ * printar os 10 primeiros resultados
+ */
+
+
+
+public static void main(String[] args) {
+  
+  Scanner scanner = new Scanner(System.in);
+
+  System.out.println("Digite o inicio da Progressão Aritimetica: ");
+  int primeiroTermo = scanner.nextInt();
+
+  System.out.println("Digite a razão da Progressão Aritimetica: ");
+  int pa = scanner.nextInt();
+
+  for(int i=1; i<=10;i++){
+    
+    primeiroTermo += pa;
+    System.out.println("O " + i + "° Termo da PA é: "+ primeiroTermo );
+    
+
+
+  }
 
 
         }

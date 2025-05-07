@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumeroPrimoFor",
+            "request": "launch",
+            "mainClass": "NumeroPrimoFor",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
             "name": "ProgressaoAritmetica",
             "request": "launch",
             "mainClass": "ProgressaoAritmetica",

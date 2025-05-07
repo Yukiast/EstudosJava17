@@ -1,6 +1,10 @@
 package fundamentosJava;
 
 /* for(inicialização; condição ; incremento/decremento){}
+        inicialização: da onde o vai começar o meu laço
+        condição: quantidade de numeros que meu laço for ler
+        
+
  * i = i + 1   = i++(acrescenta 1 no i ate chegar na condição )
  * 1°   i= 0 + 1 = 1    (i se tornorou 1)
  * 2°   i =1 + 1 = 2    (i se tornorou 2)
