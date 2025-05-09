@@ -1,25 +1,40 @@
 import java.util.Scanner;
 public class NumeroPrimoFor {
 
-/*faça um programa que leia um numero inteiro e diga se ele é ou nao um numero primo */
+/*faça um programa que leia um numero inteiro e diga se ele é ou nao um numero primo
+ * 
+*/
+
 
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    for(int i = 1; i<=1 ; i++){
-        
-        System.out.println("Digite um numero e verificaremos se ele é um Numero Primo: ");
-        int numero = scanner.nextInt();
 
-        if (numero%1 == 0 && numero%numero==0 )  {//NAO TERMINEI
-            
-            System.out.println("O número " + numero + " é primo. ");
-            
-        }else{
-            
-            System.out.println("O numero " + numero + "não é primo. ");
+    System.out.println("Digite um numero e verificaremos se ele é um Numero Primo: ");
+    int numero = scanner.nextInt(); //2
+    
+    if (numero <= 1  ) {
+        System.out.println("O "+ numero +  " não é primo."); //NÃO TERMINEI
+
+    }else{
+        for(int i= 2; i < numero ;i++){
+            if ( numero % 2 == 0) {  
+
+                System.out.println("esse numero nao é primo"+ i);
+                
+            }else if (numero% i==0) {
+                
+            }
+          
+
+
 
         }
+
     }
+
+
+
+
 
 
     
