@@ -13,7 +13,7 @@ public static void main(String[] args) {
     int numero = scanner.nextInt(); //2
     
     if (numero <= 1  ) {
-        System.out.println("O "+ numero +  " não é primo."); //NÃO TERMINEI
+        System.out.println("O "+ numero +  " não é primo."); //NÃO TERMINEI2
 
     }else{
         for(int i= 2; i < numero ;i++){
