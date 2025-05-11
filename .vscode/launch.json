@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ternarios",
+            "request": "launch",
+            "mainClass": "fundamentosJava.Ternarios",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
             "name": "NumeroPrimoFor",
             "request": "launch",
             "mainClass": "NumeroPrimoFor",
