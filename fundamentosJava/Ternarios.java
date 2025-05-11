@@ -2,7 +2,7 @@
  * variavel = (condição) ? valorSeVerdadeiro : ValorSeFalso;
  * ternario resumidamente é um if and else 2.0 
  * 
- * 
+ * .
  */
 
 
