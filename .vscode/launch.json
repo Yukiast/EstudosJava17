@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arraytest",
+            "request": "launch",
+            "mainClass": "Arraytest",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
+            "name": "AboutArrays",
+            "request": "launch",
+            "mainClass": "fundamentosJava.AboutArrays",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
             "name": "Ternarios",
             "request": "launch",
             "mainClass": "fundamentosJava.Ternarios",
