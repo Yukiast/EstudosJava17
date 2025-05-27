@@ -33,7 +33,7 @@ public class AboutArrays {
         ninja[4] ="Tsunade";
         ninja[5] ="Kakashi Hatake";
         ninja[6] ="Naruto Uzumaki";      
-        System.out.println(ninja[10]);
+        System.out.println(ninja[5]);
 
         for (int i = 0; i < 7; i++) {
             System.out.println(ninja[i]);
