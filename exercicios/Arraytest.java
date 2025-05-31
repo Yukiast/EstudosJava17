@@ -9,8 +9,9 @@ public class Arraytest {
         int escolha = 0;
         
         
-        
-        while (escolha <= 0 || escolha >3 ) {
+        String[] nomes = new String[3];
+
+        while (escolha =! 3 ) {
             
         
         
@@ -20,30 +21,40 @@ public class Arraytest {
         System.out.println("2 - Listar NInjas.");
         System.out.println("3 - Sair.");
         escolha = scanner.nextInt();
-        }
+        
         switch (escolha) {
             case 1:
-            System.out.println("Então vamos ao Cadastro: ");
-            System.out.println("Digite o nome do ninja: "); 
-            String[] nomes = new String[10];   
+            System.out.println("Você pode cadastrar até 10 ninjas.");
+            System.out.println("Digite o nome de ninja: "); 
 
-            for(int i = 0; i < 10; i++ ) {
-            if(i<=10){
-                nomes[i]=scanner.next(); 
-        
-            }
+            for(int i = 0; i < 3; i++ ) {
+            
+                if(i<=3){
+
+                    nomes[i]=scanner.next(); 
+           }
         }
+            
             case 2 :
             
-//ola
-            break;
+
+
         
+
+            case 3 :
+           
+            System.out.println("Volte sempre. ");
+
+     
+
+
             default:
-                break;
-        }
+            
+                
+            }        }
 
 
-
+}
 
     }
     
