@@ -11,7 +11,7 @@ public class Main {
 
     public static void main (String[] args){
 
-        Ninja naruto = new Ninja();
+        Ninja Naruto = new Ninja();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da folha";
         Naruto.idade = 17;
