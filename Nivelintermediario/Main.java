@@ -7,21 +7,35 @@ toda Classe é um molde para meu objeto
 
 
 package Nivelintermediario;
+
+import Nivelintermediario.heranca.FIxarHerancaEX;
+import Nivelintermediario.heranca.Uchiha;
+import Nivelintermediario.heranca.Uzumaki;
+
 public class Main {
 
     public static void main (String[] args){
 
-        Ninja naruto = new Ninja();
+        Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia = "Aldeia da folha";
         naruto.idade = 17;
+        naruto.modoSabioAtivado();
 
-        Ninja sasuke = new Ninja();
+        Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Aldeia da folha";
         sasuke.idade = 18;
+        sasuke.sharinganAtivado();
 
-        //aplicando metodo
+        FIxarHerancaEX sarada = new FIxarHerancaEX();
+        sarada.nome = "Sarada Uchiha";
+        sarada.aldeia = "Aldeia da folha";
+        sarada.idade = 5;
+        sarada.cambalhota();
+        sarada.sharinganAtivado();
+
+       /* //aplicando metodo
         sasuke.sharinganAtivado();
         String chamandoMetodo = sasuke.euSouNinja();
         System.out.println(chamandoMetodo);
@@ -33,6 +47,9 @@ public class Main {
         sakura.nome = "Sakura Haruno";
         sakura.aldeia = "aldeia da Folha";
         sakura.idade = 17;
+*/
+
+
 
     }
 

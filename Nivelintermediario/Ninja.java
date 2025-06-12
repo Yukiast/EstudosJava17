@@ -3,15 +3,12 @@ package Nivelintermediario;
 
 
 public class Ninja {
-    String nome ;
-    String aldeia;
-    int idade;
+   public String nome ;
+   public String aldeia;
+   public int idade;
 
     // /*criar um metodo Publico personalizado
 
-    public void sharinganAtivado(){
-        System.out.println("O Sharingan Ativou");
-    }
 
     public String euSouNinja() {
         return "Oi eu sou um ninja";
