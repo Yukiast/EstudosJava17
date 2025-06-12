@@ -11,28 +11,28 @@ public class Main {
 
     public static void main (String[] args){
 
-        Ninja Naruto = new Ninja();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.aldeia = "Aldeia da folha";
-        Naruto.idade = 17;
+        Ninja naruto = new Ninja();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.aldeia = "Aldeia da folha";
+        naruto.idade = 17;
 
-        Ninja Sasuke = new Ninja();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.aldeia = "Aldeia da folha";
-        Sasuke.idade = 18;
+        Ninja sasuke = new Ninja();
+        sasuke.nome = "Sasuke Uchiha";
+        sasuke.aldeia = "Aldeia da folha";
+        sasuke.idade = 18;
 
         //aplicando metodo
-        Sasuke.SharinganAtivado();
-        String chamandoMetodo = Sasuke.EuSouNinja();
+        sasuke.sharinganAtivado();
+        String chamandoMetodo = sasuke.euSouNinja();
         System.out.println(chamandoMetodo);
 
-        int TempoHokage = Sasuke.anosParaHOkage(70);
-        System.out.println("voce tem "+ Sasuke.idade + "entao falta "+ TempoHokage+ "anos para se tornar Hokage");
+        int TempoHokage = sasuke.anosParaHOkage(70);
+        System.out.println("voce tem "+ sasuke.idade + "entao falta "+ TempoHokage+ "anos para se tornar Hokage");
 
-        Ninja Sakura = new Ninja();
-        Sakura.nome = "Sakura Haruno";
-        Sakura.aldeia = "aldeia da Folha";
-        Sakura.idade = 17;
+        Ninja sakura = new Ninja();
+        sakura.nome = "Sakura Haruno";
+        sakura.aldeia = "aldeia da Folha";
+        sakura.idade = 17;
 
     }
 

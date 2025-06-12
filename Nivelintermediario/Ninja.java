@@ -9,11 +9,11 @@ public class Ninja {
 
     // /*criar um metodo Publico personalizado
 
-    public void SharinganAtivado(){
+    public void sharinganAtivado(){
         System.out.println("O Sharingan Ativou");
     }
 
-    public String EuSouNinja() {
+    public String euSouNinja() {
         return "Oi eu sou um ninja";
 
     }
