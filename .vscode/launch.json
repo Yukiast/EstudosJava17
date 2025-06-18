@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nome",
+            "request": "launch",
+            "mainClass": "nome",
+            "projectName": "EstudosJava17_b7930c5b"
+        },
+        {
+            "type": "java",
             "name": "AboutArrays2D",
             "request": "launch",
             "mainClass": "fundamentosJava.AboutArrays2D",
